@@ -29,7 +29,7 @@
                      <children>
                         <Label fx:id="nameError" />
                         <Button fx:id="connect" mnemonicParsing="false" onAction="#onPressConnect" prefHeight="40.0" prefWidth="120.0" text="Connect" />
-                        <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="120.0" text="Exit" />
+                        <Button mnemonicParsing="false" onAction="#onExit" prefHeight="40.0" prefWidth="120.0" text="Exit" />
                      </children>
                   </VBox>
                </children>
